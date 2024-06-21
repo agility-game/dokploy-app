@@ -1,7 +1,7 @@
 dokploy-app
 # Dokploy App
 
-Based on "ABC" at https://www.abc.com/
+Based on "Dokploy - Docker Compose" at [https://www.abc.com/](https://docs.dokploy.com/en/docker-compose/overview)
 
 ## 100 - Introduction
 
