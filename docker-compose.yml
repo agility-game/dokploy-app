@@ -11,10 +11,10 @@ services:
       - dokploy-network
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.app.rule=Host(`agility-game.com`)"
-      - "traefik.http.routers.app.entrypoints=websecure"
-      - "traefik.http.routers.app.tls.certResolver=letsencrypt"
-      - "traefik.http.services.app.loadbalancer.server.port=8081"
+      - "traefik.http.routers.nginx.rule=Host(`agility-game.com`)"
+      - "traefik.http.routers.nginx.entrypoints=websecure"
+      - "traefik.http.routers.nginx.tls.certResolver=letsencrypt"
+      - "traefik.http.services.nginx.loadbalancer.server.port=8081"
   whoami:
     image: traefik/whoami
     ports:
